@@ -52,9 +52,10 @@
 ---
 
 ## 🚀 Getting Started
-
+```
 git clone https://github.com/Mamadinit1/Soul-Weaver.git
 cd Soul-Weaver
+```
 
 Install dependencies and start the dev server:
 
@@ -66,7 +67,7 @@ Then open the local address shown in your terminal (usually http://localhost:517
 ---
 
 ## 📁 Project Structure
-
+```
 Soul-Weaver/
 ├── public/
 │ └── images/
@@ -124,7 +125,7 @@ Soul-Weaver/
 ├── package.json
 ├── vite.config.js
 └── README.md
-
+```
 ---
 
 ## 🧠 React Concepts Used
