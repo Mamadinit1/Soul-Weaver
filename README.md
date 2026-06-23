@@ -1,4 +1,4 @@
-# ⚔️ Soul Weaver — Character Arsenal
+# ⚔️ Soul Weaver
 
 > A dark, Souls-like character weapon viewer — built with HTML, CSS (Flexbox), JavaScript, and React.
 
