@@ -1,5 +1,3 @@
-import React from "react";
-
 function Weapons({ classCharacter }) {
   if (!classCharacter) {
     return (
@@ -30,6 +28,7 @@ function Weapons({ classCharacter }) {
           return (
             <div
               className="weapon-card"
+              key={crypto.randomUUID()}
               style={{
                 backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("${w.image}")`,
               }}

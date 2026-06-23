@@ -23,22 +23,63 @@
 }
 
 .app-title {
-  font-size: 3em;
+  font-size: 5rem;
   font-weight: 900;
-  letter-spacing: 2px;
+  letter-spacing: 6px;
   background: linear-gradient(
     180deg,
-    var(--gold-bright) 0%,
-    var(--gold) 50%,
-    #8b6914 100%
+    #ffffff 0%,
+    #c8ccd0 25%,
+    #8a9299 50%,
+    #c8ccd0 75%,
+    #ffffff 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-shadow: none;
   margin-bottom: 8px;
   position: relative;
   display: inline-block;
+  font-family: "DarkSouls medium";
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+}
+
+.app-title:hover {
+  filter: drop-shadow(0 0 14px rgba(255, 255, 255, 0.25))
+    drop-shadow(0 2px 4px rgba(0, 0, 0, 0.9));
+}
+
+.app-title::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+}
+
+.app-title::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
 }
 
 .app-subtitle {

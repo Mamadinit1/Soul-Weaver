@@ -1,3 +1,24 @@
+@font-face {
+  font-family: "DarkSouls";
+  src: url("/fonts/Cinzel-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DarkSouls bold";
+  src: url("/fonts/Cinzel-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DarkSouls medium";
+  src: url("/fonts/Cinzel-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DarkSouls xbold";
+  src: url("/fonts/Cinzel-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DarkSouls decor";
+  src: url("/fonts/CinzelDecorative-Regular.ttf") format("truetype");
+}
+
 :root {
   --bg-dark: #0a0a0c;
   --bg-card: #111115;
@@ -22,6 +43,9 @@ html {
   box-sizing: inherit;
 }
 body {
+  font-family: "DarkSouls";
+  font-weight: 400;
+  font-style: normal;
   font-size: 1.6rem;
   background-color: var(--bg-dark);
   background-image:
