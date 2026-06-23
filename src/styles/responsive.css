@@ -1,0 +1,64 @@
+@media (max-width: 1399px) {
+  .container {
+    width: 114rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 96rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 72rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 54rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  .app-title {
+    font-size: 2em;
+    letter-spacing: 1px;
+  }
+
+  .weapons-grid {
+    gap: 8px;
+  }
+
+  .weapon-card {
+    padding: 18px 8px 14px;
+    width: 100%;
+  }
+
+  .weapon-card .weapon-icon {
+    font-size: 2.5em;
+  }
+
+  .class-info {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .class-info::before {
+    width: 100%;
+    height: 3px;
+  }
+
+  .class-select {
+    font-size: 1.1em;
+    padding: 14px 16px;
+  }
+}

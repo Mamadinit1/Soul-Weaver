@@ -1,0 +1,56 @@
+.app-header {
+  text-align: center;
+  position: relative;
+  padding-bottom: 25px;
+}
+
+.app-header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--ember),
+    var(--gold),
+    var(--ember),
+    transparent
+  );
+}
+
+.app-title {
+  font-size: 3em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  background: linear-gradient(
+    180deg,
+    var(--gold-bright) 0%,
+    var(--gold) 50%,
+    #8b6914 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: none;
+  margin-bottom: 8px;
+  position: relative;
+  display: inline-block;
+}
+
+.app-subtitle {
+  color: var(--text-dim);
+  font-size: 1.05em;
+  letter-spacing: 1px;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.app-subtitle::before,
+.app-subtitle::after {
+  content: " ~ ";
+  color: var(--ember);
+}
